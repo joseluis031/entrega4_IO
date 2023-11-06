@@ -30,35 +30,35 @@ x = symbols('x')
 f1 = 8 - x
 f2 = 18 - 3*x
 
-z1 = "10 - 2*x"
-z2 = "20 - 2*x"
-z3 = "30 - 2*x"
-plot(f1, f2, z1, z2, z3, (x, 0, 10), title='1 cuadrante', xlabel='x1', ylabel='x2', legend=True)
+z1 = "8 - 2*x"
+z2 = "18 - 2*x"
+
+plot(f1, f2, z1, z2, (x, 0, 10), title='1 cuadrante', xlabel='x1', ylabel='x2', legend=True)
 
 # 2 cuadrante
 f1 = 8 + x
 f2 = 18 + 3*x
 
-z1 = "10 + 2*x"
-z2 = "20 + 2*x"
-z3 = "30 + 2*x"
-plot(f1, f2, z1, z2, z3, (x, -10, 0), title='2 cuadrante', xlabel='x1', ylabel='x2', legend=True)
+z1 = "8 + 2*x"
+z2 = "18 + 2*x"
+
+plot(f1, f2, z1, z2, (x, -10, 0), title='2 cuadrante', xlabel='x1', ylabel='x2', legend=True)
 
 # 3 cuadrante
 f1 = -8 - x
 f2 = -18 - 3*x
 
-z1 = "-10 - 2*x"
-z2 = "-20 - 2*x"
-z3 = "-30 - 2*x"
-plot(f1, f2, z1, z2, z3, (x, -10, 0), title='3 cuadrante', xlabel='x1', ylabel='x2', legend=True)
+z1 = "-8 - 2*x"
+z2 = "-18 - 2*x"
+
+plot(f1, f2, z1, z2, (x, -10, 0), title='3 cuadrante', xlabel='x1', ylabel='x2', legend=True)
 
 # 4 cuadrante
 f1 = -8 + x
 f2 = -18 + 3*x
 
-z1 = "-10 + 2*x"
-z2 = "-20 + 2*x"
-z3 = "-30 + 2*x"
-plot(f1, f2, z1, z2, z3, (x, 0, 10), title='4 cuadrante', xlabel='x1', ylabel='x2', legend=True)
+z1 = "-8 + 2*x"
+z2 = "-18 + 2*x"
+
+plot(f1, f2, z1, z2, (x, 0, 10), title='4 cuadrante', xlabel='x1', ylabel='x2', legend=True)
 
